@@ -14,5 +14,4 @@ public class Televisor {
     public void showStatus() {
         System.out.println(activated);
     }
-
 }
