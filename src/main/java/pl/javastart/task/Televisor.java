@@ -1,25 +1,18 @@
 package pl.javastart.task;
 
 public class Televisor {
-    private boolean isActivated = false;
+    private boolean activated;
 
     public void turnOn() {
-        setActivated(true);
+        activated = true;
     }
 
-    public void turOff() {
-        setActivated(false);
+    public void turnOff() {
+        activated = false;
     }
 
     public void showStatus() {
-        System.out.println(isActivated());
+        System.out.println(activated);
     }
 
-    public boolean isActivated() {
-        return isActivated;
-    }
-
-    public void setActivated(boolean activated) {
-        isActivated = activated;
-    }
 }

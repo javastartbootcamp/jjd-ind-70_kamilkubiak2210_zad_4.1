@@ -7,7 +7,7 @@ public class Main {
         televisor.showStatus();
         televisor.turnOn();
         televisor.showStatus();
-        televisor.turOff();
+        televisor.turnOff();
         televisor.showStatus();
     }
 }
